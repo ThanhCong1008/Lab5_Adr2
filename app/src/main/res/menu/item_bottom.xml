@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/trangChu"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Nhan tin"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/baseline_map_24"
+        android:title="Ban do"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/black"/>
+    <item
+        android:iconTint="@color/black"
+        android:id="@+id/image"
+        android:icon="@drawable/baseline_image_24"
+        android:title="Hinh anh"
+        app:showAsAction="ifRoom"/>
+
+</menu>
